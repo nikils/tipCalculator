@@ -28,6 +28,7 @@
 
 - (void)viewDidAppear:(BOOL)animated {
     [self updateValues];
+    [self.billTextField becomeFirstResponder];
 }
 
 - (void)didReceiveMemoryWarning {
